@@ -31,4 +31,22 @@ function adicionarAmigo() {
     // Atualiza a lista na tela (função que vamos criar logo em seguida)
     mostrarLista();
 }
+// Função para mostrar a lista de amigos na tela
+function mostrarLista() {
+    // Pega o elemento UL onde os nomes serão mostrados
+    let listaHTML = document.getElementById("listaAmigos");
+    
+    // Limpa o conteúdo atual para não duplicar os nomes
+    listaHTML.innerHTML = "";
+
+    // Para cada nome no array 'amigos', cria um novo item na lista
+    amigos.forEach(function(nome) {
+        // Cria um elemento <li> para o nome
+        let item = document.createElement("li");
+        item.textContent = nome;
+
+        // Adiciona o item na lista HTML
+        listaHTML.appendChild(item);
+    });
+}
 
