@@ -50,3 +50,30 @@ function mostrarLista() {
     });
 }
 
+// Função para sortear um amigo secreto
+function sortearAmigo() {
+    // Verifica se a lista está vazia
+    if (amigos.length === 0) {
+        alert("A lista está vazia!");
+        return; // Sai da função se não tiver nomes
+    }
+
+    // Gera um índice aleatório entre 0 e tamanho do array - 1
+    let indice = Math.floor(Math.random() * amigos.length);
+
+    // Pega o nome sorteado usando o índice
+    let sorteado = amigos[indice];
+
+    // Pega o elemento onde o resultado será exibido
+    let resultadoHTML = document.getElementById("resultado");
+
+    // Mostra o nome sorteado na tela dentro de uma <li>
+    resultadoHTML.innerHTML = `<li>Amigo secreto: ${sorteado}</li>`;
+
+    // Remove o nome sorteado do array para não repetir no próximo sorteio
+    amigos.splice(indice, 1);
+
+    // Atualiza a lista de nomes na tela após remover o sorteado
+    mostrarLista();
+}
+
