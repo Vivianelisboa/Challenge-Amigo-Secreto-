@@ -17,19 +17,18 @@ O usuário adiciona os nomes em uma lista e o sistema realiza o sorteio automati
 ## 📸 Capturas de Tela
 
 ### Tela inicial
-![Tela inicial](
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/97779b3f-3858-4579-8fd0-f40d8a1239d3" />
 
 ### Lista de nomes adicionados
-![Lista de nomes](img/lista-nomes.png)
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2ac19dad-0421-462b-ae67-971aa653fcde" />
 
 ### Resultado do sorteio
-![Resultado](img/resultado.png)
-
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/a46250fe-5ee5-4b3f-b28b-0ed46b7a719c" />
 ---
 
 ## 📹 Demonstração em Vídeo
 
-[▶ Assista à demonstração](https://link-do-video.com)
+[▶ Assista à demonstração] https://youtu.be/kli2OAqlEs8
 
 ---
 
@@ -45,4 +44,5 @@ O usuário adiciona os nomes em uma lista e o sistema realiza o sorteio automati
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/Vivianelisboa/Challenge-Amigo-Secreto-.git
+
